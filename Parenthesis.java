@@ -1,10 +1,42 @@
+/*
+This was a school assignment that was meant to validate balanced parentheses. In practice, a fairly straightforward task. 
+I wanted to create some concrete material for others to see my authentic thought process.
+I approached it intuitively with very little Java experience, just a basic idea of syntax and logic flow.
+I gave myself a 30min time limit to perform.
+
+The result? It almost did exactly what it was supposed to,
+check if parentheses are used in the right way, like this example: (()))) = wrong, (()) = right.
+
+The only thing I didn’t manage to fix in time was that it also accepted things like ()() as correct,
+even though that wasn’t supposed to pass. 
+I ran out of time before I could tweak it.
+
+
+---------SUMMARY----------
+
+This functional yet chaotic code structure showcases how I:
+Manage semi-complex control flow
+Solve problems without relying on ANY external sources
+Attack new challenges and languages 
+Think in systems even when the syntax is semi-unfamiliar
+Write under pressure
+
+And additionally, my true core logic that is rooted in my thought process.
+
+It’s not pretty but it’s real, HAHA.
+
+*/
+
+
+
+
 import java.util.Scanner;
 
 public class Parenthesis {
 
     static boolean checkParenthesis(String s) {
         boolean isok = false;
-/* my code here */
+/* my code starts here */
 
  int b = 0;
  int a = 0;
