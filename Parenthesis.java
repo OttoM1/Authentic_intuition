@@ -1,4 +1,5 @@
 /*
+
 This was a school assignment that was meant to validate balanced parentheses. In practice, a fairly straightforward task. 
 I wanted to create some concrete material for others to see my authentic thought process.
 I approached it intuitively with very little Java experience, just a basic idea of syntax and logic flow.
@@ -7,8 +8,7 @@ I gave myself a 30min time limit to perform.
 The result? It almost did exactly what it was supposed to,
 check if parentheses are used in the right way, like this example: (()))) = wrong, (()) = right.
 
-The only thing I didn’t manage to fix in time was that it also accepted things like ()() as correct,
-even though that wasn’t supposed to pass. 
+The only thing I didn’t realize to add in time was that it also ought to accept things like ()() as correct. 
 I ran out of time before I could tweak it.
 
 
